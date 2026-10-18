@@ -1,0 +1,2 @@
+# /etc/cron.d/wg-healthcheck  (on clients that must stay connected, not on the server)
+*/5 * * * * root /usr/local/bin/wg-healthcheck.sh wg0 180 >> /var/log/wg-healthcheck.log 2>&1
