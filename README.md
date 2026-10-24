@@ -50,6 +50,11 @@ The scripts are MIT licensed and free here; the checklists and templates are the
 part. The kit has not been validated on a multi-device test bench; it condenses the
 guides linked above.
 
+The cheat sheet alone is free (pay what you want, 0 USD accepted):
+[WireGuard Cheat Sheet](https://ericgerard.gumroad.com/l/wireguard-cheat-sheet?utm_source=github&utm_medium=readme&utm_campaign=wireguard-ops-scripts),
+a 4-page PDF with the `wg` / `wg-quick` commands, every `[Interface]` and `[Peer]` key,
+the MTU table, port choices and one-line diagnostics.
+
 ## License
 
 MIT, see `LICENSE`.
