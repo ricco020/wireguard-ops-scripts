@@ -23,9 +23,9 @@ Why it exists: a tunnel that sits behind NAT loses its mapping after a few minut
 silence, and a tunnel whose endpoint changed IP keeps sending to the old address until
 something restarts it. `PersistentKeepalive` fixes the first case; nothing in WireGuard
 fixes the second, so a cron job does. Background reading:
-[WireGuard handshake troubleshooting](https://www.vpnsmith.com/en/blog/wireguard-handshake-troubleshooting-2026),
-[PersistentKeepalive explained](https://www.vpnsmith.com/en/blog/wireguard-persistent-keepalive-2026),
-[WireGuard behind CGNAT](https://www.vpnsmith.com/en/blog/wireguard-behind-cgnat).
+[WireGuard handshake troubleshooting](https://www.vpnsmith.com/en/blog/wireguard-handshake-troubleshooting-2026?src=github&ref=gh-wireguard-ops-scr),
+[PersistentKeepalive explained](https://www.vpnsmith.com/en/blog/wireguard-persistent-keepalive-2026?src=github&ref=gh-wireguard-ops-scr),
+[WireGuard behind CGNAT](https://www.vpnsmith.com/en/blog/wireguard-behind-cgnat?src=github&ref=gh-wireguard-ops-scr).
 
 ## wg-newpeer.sh
 
